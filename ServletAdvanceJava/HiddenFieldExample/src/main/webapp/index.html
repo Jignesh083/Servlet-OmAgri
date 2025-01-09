@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hidden Field Example</title>
+</head>
+<body>
+    <h1>Submit Form with Hidden Field</h1>
+    <form action="HiddenFieldServlet" method="POST">
+        <!-- Regular form fields -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <!-- Hidden field -->
+        <input type="hidden" id="hiddenData" name="hiddenData" value="12345"><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
